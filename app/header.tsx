@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="mb-8 flex items-center justify-between">
       <div>
-        <Link href="/" className="font-medium text-black dark:text-white">
+        <Link href="/" className="text-lg font-medium text-black dark:text-white">
           Vi Tran
         </Link>
         <TextEffect

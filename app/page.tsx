@@ -75,12 +75,22 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <div className="flex-1">
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Frontend Developer specializing in WordPress themes, responsive
-            design, and interactive web experiences. I build clean, performant
-            websites that help businesses grow.
-          </p>
+        <div className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:text-left gap-6">
+          <img
+            src="/avatar.jpg"
+            alt="Vi Tran"
+            className="h-28 w-28 shrink-0 rounded-full object-cover ring-2 ring-zinc-200 shadow-lg dark:ring-zinc-700"
+          />
+          <div className="flex-1">
+            <h1 className="mb-2 text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+              Hi, I&apos;m Vi Tran
+            </h1>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              Frontend Developer specializing in WordPress themes, responsive
+              design, and interactive web experiences. I build clean, performant
+              websites that help businesses grow.
+            </p>
+          </div>
         </div>
       </motion.section>
 
