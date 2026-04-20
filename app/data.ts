@@ -27,33 +27,33 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Originally US — Homepage',
+    name: 'Originally US — Agency Website',
     description:
-      'Custom WordPress theme for a Singapore mobile app development agency. Features real-time analytics dashboard, AI chatbot, project showcase with modal popups, and responsive design optimized for all devices.',
+      'Built a custom WordPress theme for Originally US, a Singapore-based mobile app agency serving government bodies and MNCs. Features interactive project showcase with modal popups, smooth scroll animations, and SEO-optimized structure that improved brand presence.',
     link: 'https://www.originallyus.sg/',
     video: '/projects/homepage.mp4',
     id: 'project1',
   },
   {
-    name: 'Originally US — Blog Page',
+    name: 'Originally US — Blog & Content',
     description:
-      'Blog section with clean typography, category filtering, and SEO-optimized layout. Built with WordPress custom theme for content marketing.',
+      'Developed a blog section with clean typography, category filtering, and responsive layout. Built for content marketing with WordPress custom post types, optimized for readability and search engine visibility.',
     link: 'https://www.originallyus.sg/',
     video: '/projects/blogpage.mp4',
     id: 'project2',
   },
   {
-    name: 'Originally US — Contact & Booking',
+    name: 'Consultation Booking System',
     description:
-      'Interactive consultation booking system with date/time slot selection, public holiday filtering by timezone, multi-channel contact (Email, WhatsApp, Phone), and smooth animations.',
+      'Created an interactive booking system with date/time slot selection, public holiday filtering by timezone, and multi-channel contact (Email, WhatsApp, Phone). Reduced manual scheduling effort and improved client conversion with smooth UX.',
     link: 'https://www.originallyus.sg/',
     video: '/projects/contactpage.mp4',
     id: 'project3',
   },
   {
-    name: 'Responsive Design Showcase',
+    name: 'Responsive Design Implementation',
     description:
-      'Fully responsive implementation across desktop, tablet, and mobile. Pixel-perfect layouts with fluid typography and adaptive navigation.',
+      'Delivered pixel-perfect responsive layouts across desktop, tablet, and mobile. Fluid typography, adaptive navigation, and touch-friendly interactions ensure seamless experience on every device.',
     link: 'https://www.originallyus.sg/',
     video: '/projects/responsive.mp4',
     id: 'project4',
