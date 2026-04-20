@@ -267,9 +267,12 @@ export default function Personal() {
               className="group overflow-hidden rounded-2xl border border-zinc-100 bg-white shadow-sm transition-all hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900"
             >
               <div className="overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.name}
+                <video
+                  src={project.video}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="aspect-video w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>

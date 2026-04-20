@@ -2,7 +2,7 @@ type Project = {
   name: string
   description: string
   link: string
-  image: string
+  video: string
   id: string
 }
 
@@ -27,20 +27,36 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Calendar Booking System — Originally US',
-    description:
-      'Interactive consultation booking system for a Singapore-based mobile app development company. Features date/time slot selection, public holiday filtering by timezone, multi-channel contact (Email, WhatsApp, Phone), responsive design, and smooth animations.',
-    link: 'https://www.originallyus.sg/',
-    image: '/projects/originally-us-booking.png',
-    id: 'project1',
-  },
-  {
-    name: 'Originally US — Agency Website',
+    name: 'Originally US — Homepage',
     description:
       'Custom WordPress theme for a Singapore mobile app development agency. Features real-time analytics dashboard, AI chatbot, project showcase with modal popups, and responsive design optimized for all devices.',
     link: 'https://www.originallyus.sg/',
-    image: '/projects/originally-us-website.png',
+    video: '/projects/homepage.mp4',
+    id: 'project1',
+  },
+  {
+    name: 'Originally US — Blog Page',
+    description:
+      'Blog section with clean typography, category filtering, and SEO-optimized layout. Built with WordPress custom theme for content marketing.',
+    link: 'https://www.originallyus.sg/',
+    video: '/projects/blogpage.mp4',
     id: 'project2',
+  },
+  {
+    name: 'Originally US — Contact & Booking',
+    description:
+      'Interactive consultation booking system with date/time slot selection, public holiday filtering by timezone, multi-channel contact (Email, WhatsApp, Phone), and smooth animations.',
+    link: 'https://www.originallyus.sg/',
+    video: '/projects/contactpage.mp4',
+    id: 'project3',
+  },
+  {
+    name: 'Responsive Design Showcase',
+    description:
+      'Fully responsive implementation across desktop, tablet, and mobile. Pixel-perfect layouts with fluid typography and adaptive navigation.',
+    link: 'https://www.originallyus.sg/',
+    video: '/projects/responsive.mp4',
+    id: 'project4',
   },
 ]
 
